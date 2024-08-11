@@ -12,8 +12,9 @@ public class main {
 
        Calculate cal1 = (a,b) -> System.out.println( a+b) ;
        Calculate cal2 = (a,b) -> Calculator.findSum(a, b);
+       Calculate cal3 = Calculator::findSum;
 
-
+       cal3.calculate(10,20);
 
     }
 }
