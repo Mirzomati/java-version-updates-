@@ -23,6 +23,7 @@ public class AppleMain_Practice {
        System.out.println("Green Apples: " + greenApples);
        System.out.println("Heavy Apples: " +HeavyApples);
 
+
     }
 
     public static List<Apple> findApple(List apples, FindApple findApple){
