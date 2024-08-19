@@ -1,7 +1,7 @@
 package com.cydeo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
 
 public class AppleMain_Practice {
@@ -26,7 +26,7 @@ public class AppleMain_Practice {
 
     }
 
-    public static List<Apple> findApple(List apples, FindApple findApple){
+    public static List<Apple> findApple(List<Apple> apples, FindApple<Apple> findApple){
 
         return findApple.findAll(apples);
     }

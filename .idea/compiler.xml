@@ -11,6 +11,7 @@
         <module name="m2-enum" />
         <module name="m3-lambda" />
         <module name="m1-generics" />
+        <module name="m5-coparator_interface" />
       </profile>
     </annotationProcessing>
   </component>
