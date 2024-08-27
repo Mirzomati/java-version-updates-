@@ -12,7 +12,12 @@
         <module name="m3-lambda" />
         <module name="m1-generics" />
         <module name="m5-coparator_interface" />
+        <module name="m7-optional-bigdecimal" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="m5-coparator_interface (1)" target="19" />
+      <module name="m5-coparator_interface (2)" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
