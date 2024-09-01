@@ -1,5 +1,8 @@
 package com.mirzoyon;
 
+import com.mirzoyon.java10.Apple;
+import com.mirzoyon.java9.FactoryMethodsDemo;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -34,7 +37,9 @@ public class OptionalDemo {
         System.out.println("________//orElse__________");
         System.out.println(bigNumber.orElse(5));
 
+        FactoryMethodsDemo f1 = new FactoryMethodsDemo();
 
+        Apple a1 = new Apple();
 
 
 

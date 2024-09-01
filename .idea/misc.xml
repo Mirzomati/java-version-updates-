@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -10,6 +9,7 @@
         <option value="$PROJECT_DIR$/m4-double-colon_operators/pom.xml" />
         <option value="$PROJECT_DIR$/m5-coparator_interface/pom.xml" />
         <option value="$PROJECT_DIR$/m7-optional-bigdecimal/pom.xml" />
+        <option value="$PROJECT_DIR$/m8-new-version-updates/pom.xml" />
       </list>
     </option>
   </component>
