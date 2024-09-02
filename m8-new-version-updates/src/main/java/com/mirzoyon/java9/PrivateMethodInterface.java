@@ -22,6 +22,7 @@ public interface PrivateMethodInterface {
         return isHoliday(nextDate) ? nextDay(nextDate): nextDate;
     }
 //////////////////////////////////////////
+    //With private methods, we can create methods for repeating bodies of code which are only visible and used inside only that interface
 
     private void validate(LocalDate date){
         if(date.isBefore(LocalDate.of(2001,1, 1))){

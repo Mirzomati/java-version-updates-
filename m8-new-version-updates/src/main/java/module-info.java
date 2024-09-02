@@ -1,6 +1,6 @@
-module moduleJava9{
+module module8{
     exports com.mirzoyon.java9;
 
 
 
-        }
+}

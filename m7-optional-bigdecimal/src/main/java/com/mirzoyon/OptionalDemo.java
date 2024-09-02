@@ -1,6 +1,6 @@
 package com.mirzoyon;
 
-import com.mirzoyon.java10.Apple;
+
 import com.mirzoyon.java9.FactoryMethodsDemo;
 
 import java.util.Arrays;
@@ -39,7 +39,7 @@ public class OptionalDemo {
 
         FactoryMethodsDemo f1 = new FactoryMethodsDemo();
 
-        Apple a1 = new Apple();
+//        Apple a1 = new Apple();
 
 
 

@@ -21,6 +21,7 @@
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.mirzoyon</groupId>
             <artifactId>m8-new-version-updates</artifactId>
