@@ -16,5 +16,6 @@ public class orElseThrowDemo {
         }
 
         System.out.println(str.orElseThrow());
+        System.out.println(str.orElseThrow(() -> new RuntimeException()));
     }
 }
