@@ -3,12 +3,12 @@ package com.mirzoyon.java12;
 public class Guest {
     private String name;
     private boolean participating;
-    private  Integer participantsNumber;
+    private  Integer participantsNumOfFamilyMembers;
 
-    public Guest(String name, boolean participating, Integer participantsNumber) {
+    public Guest(String name, boolean participating, Integer participantsNumOfFamilyMembers) {
         this.name = name;
         this.participating = participating;
-        this.participantsNumber = participantsNumber;
+        this.participantsNumOfFamilyMembers = participantsNumOfFamilyMembers;
     }
 
     public String getName() {
@@ -19,7 +19,7 @@ public class Guest {
         return participating;
     }
 
-    public Integer getParticipantsNumber() {
-        return participantsNumber;
+    public Integer getParticipantsNumOfFamilyMembers() {
+        return participantsNumOfFamilyMembers;
     }
 }
